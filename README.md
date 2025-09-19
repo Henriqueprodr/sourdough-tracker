@@ -1,4 +1,4 @@
-# 🥖 Sourdough Tracker
+# Sourdough Tracker
 
 A simple command-line tool to help bakers track and manage their sourdough starter feedings.
 It calculates discard targets, flour and water amounts, and logs each feeding in an Excel file for easy review.
@@ -7,7 +7,7 @@ Built with **Python**, **argparse**, and **openpyxl**.
 
 ---
 
-## ✨ Features
+## Features
 
 * Configure your jar weight, keep target, and feeding ratio once (`init`).
 * Log each feeding with jar weight, smell notes, peak hours, and more (`feed`).
@@ -17,7 +17,7 @@ Built with **Python**, **argparse**, and **openpyxl**.
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone the repo and install locally:
 
@@ -31,7 +31,7 @@ This installs the CLI tool globally as `starter`.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Initialize
 
@@ -92,7 +92,7 @@ Notes: bubbly and doubled in size
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 sourdough-tracker/
@@ -104,19 +104,3 @@ sourdough-tracker/
 ├── LICENSE
 ├── README.md
 ```
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License.
-See the [LICENSE](LICENSE) file for details.
-
----
-
-💡 Future improvement:
-
-* Pretty stats with [Rich tables](https://rich.readthedocs.io/).
-* Validation for feeding ratio format.
-* Store log file path inside `config.json`.
-* Improve Excel formatting: auto-adjust column widths, freeze header row, apply bold to headers for better readability.
