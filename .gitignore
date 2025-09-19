@@ -1,0 +1,32 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.tar.gz
+*.whl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime artifacts
+*.log
+
+# Project-specific generated files
+config.json
+starter_log.xlsx
