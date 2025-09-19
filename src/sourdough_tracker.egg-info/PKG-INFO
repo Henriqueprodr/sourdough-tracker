@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: sourdough-tracker
+Version: 0.1.0
+Summary: CLI tool to track sourdough starter feedings
+Author: Henrique Rodrigues
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openpyxl
+Requires-Dist: rich
+Dynamic: license-file

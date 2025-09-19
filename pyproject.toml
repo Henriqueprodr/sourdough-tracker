@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sourdough-tracker"
+version = "0.1.0"
+description = "CLI tool to track sourdough starter feedings"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+  { name = "Henrique Rodrigues" }
+]
+dependencies = [
+  "openpyxl",
+  "rich"
+]
+
+[project.scripts]
+starter = "sourdough_tracker.cli:main"

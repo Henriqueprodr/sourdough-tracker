@@ -1,0 +1,10 @@
+{
+    "jar_weight": 350,
+    "keep_target": 50,
+    "ratio": [
+        1,
+        2,
+        2
+    ],
+    "path": "."
+}
