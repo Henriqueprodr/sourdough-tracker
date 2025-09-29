@@ -99,7 +99,8 @@ sourdough-tracker/
 ├── src/
 │   └── sourdough_tracker/
 │       ├── __init__.py
-│       └── cli.py
+│       └── commands.py
+│       └── main.py
 ├── pyproject.toml
 ├── LICENSE
 ├── README.md
