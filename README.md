@@ -5,6 +5,8 @@ It calculates discard targets, flour and water amounts, and logs each feeding in
 
 Built with **Python**, **argparse**, and **openpyxl**.
 
+This is my first real Python project. Hope you enjoy it. ;)
+
 ---
 
 ## Features
